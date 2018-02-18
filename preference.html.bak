@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Scheduling</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
+</style>
+</head>
+<body>
+<div id="header">
+<a href="index.html"> <div id="logo"><img src="detail-bg-copy.png"/></div> </a>
+<div id="res_btn" onclick="show_hide_nav('navbar')" ><img src="button.png"/></div>
+<ul id="navbar">
+<li><a href="index.html">Home</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="preference.html">Preference</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</div>
+<font color="red" size="5"><marquee><b>WELCOME TO TASK MANAGEMENT</b></marquee></font>
+
+<title>Sign Up Page</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:skyblue">
+	<div id="main-wrapper">
+	<center><h2>Preference Form</h2></center>
+			<div class="imgcontainer">
+				<img src="imgs/avatar.png" alt="Avatar" class="avatar">
+			</div>
+			<div class="inner_container">
+				<label><b>User id</b></label>
+				<input type="number" placeholder="Enter Userid" name="userid" required>
+				<label><b>Subject</b></label>
+				<input type="text" placeholder="Enter Subject" name="subject" required>
+				<label><b>Day</b></label>
+				<input type="text" placeholder="Enter Day" name="day" required>
+				<a href="dashboard.html"><button name="register" class="sign_up_btn" type="submit">Submit</button></a>
+			</div>
+		</form>
+</body>
+</html>
